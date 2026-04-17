@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body{
+    font: normal 1em Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    color: rgb(0, 0, 0);
+    
+}
+
+#first{
+    background-color: rgb(247, 110, 110);
+    text-align: center;
+    color: blue;
+}
+
+.fec{
+    background-color: azure;
+    color: blue;
+}
+
+h1{
+    text-align: right;
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+a:visited{
+    color: rgb(45, 150, 185);
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: red;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#linkk{
+    text-align: right;
+}

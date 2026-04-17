@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 10px;
+        }
+
+        nav{
+            background-color: rgb(143, 143, 143);
+            padding: 2px;  
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.37);
+        }
+
+        nav > a{
+            color: white;
+            margin-right: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.37);
+        }
+
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(167, 167, 167);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 3px;
+            text-align: center;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px auto;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Xablau Games LOL</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre a Seleção brasileira</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet inventore, saepe accusamus ad consequatur optio explicabo ea, iure dignissimos in quisquam, vel esse vero doloribus eligendi molestiae modi dolore!</p>
+                <aside>
+                    <p>Artigo escrito por João Guanabara</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Enio Cavalcante</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

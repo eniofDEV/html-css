@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: brown;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .especial {
+            background-color: rgb(177, 216, 114);
+        }
+
+        .especial::before{
+            content: '»';
+        }
+
+        .especial::after{
+            content: '«';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul type="square">
+        <li><a href="https://fortaleza1918.com.br/" target="_blank" rel="external">Site do Fortaleza Esporte Clube</a></li>
+        <li><a href="https://loud.gg/" target="_blank" rel="external" class="especial">Site da Loud</a></li>
+        <li><a href="https://www.youtube.com/@cortesdostag" target="_blank" rel="external" class="especial">Cortes do Stag</a></li>
+    </ul>
+</body>
+</html>

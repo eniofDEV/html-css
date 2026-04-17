@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+
+body{
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to top, #195835, #2B965A, #3CD782);
+    text-align: center;
+    color: rgb(223, 223, 223);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+header > h1#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+}
+
+header > p {
+    text-align: center;
+}
+
+.menu{
+    text-align: left;
+    background-color: #195835;
+    padding: 10px 0px;
+}
+
+.menu > a{
+    text-decoration: none;
+    color:#6dc593;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.menu > a:hover{
+    color: #195835;
+    background-color: #6dc593;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+main{
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+p > a{
+    text-decoration: none;
+    background-color: #477c5e;
+    color: black;
+    font-weight: bold;
+}
+
+p > a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+h1{
+    font-family: idroid, sans-serif;
+    color: #195835;
+}
+
+h2{
+    font-family: idroid, sans-serif;
+    color: #2B965A;
+    box-shadow: inset 0px 0px 20px 0px #4d9a4d;
+    padding: 0px 5px;
+}
+
+span{
+    color: #477c5e;
+    font-weight: bold;
+}
+
+aside{
+    background-color: #6dc593;
+    width: 750px;
+    border-radius: 10px ;
+    padding: 0px 2px 5px 2px;
+    margin: auto;
+}
+
+iframe{
+    margin: auto 0px;
+    padding: 20px;
+}
+
+aside > h3{
+    background-color: #2B965A;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.droid{
+    display: flex;
+    justify-content: center;
+}
+
+.listas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.listas ul{
+    padding-right: 170px;
+}
+
+
+li::marker{
+    content: '🗸 ';
+}
+
+footer{
+    background-color: #195835;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+}
